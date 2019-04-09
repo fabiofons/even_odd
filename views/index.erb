@@ -1,0 +1,10 @@
+<h1>Hola</h1>
+
+<%while @num <= 50%>
+    <%if @num.even?%>
+        <h4><%=@num%> Soy Par!</h4>
+    <%else%>
+        <h4><%=@num%> Soy Impar!</h4>
+    <%end%>
+    <%@num += 1%>
+<%end%>
